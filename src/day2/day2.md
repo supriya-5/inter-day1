@@ -17,13 +17,13 @@ React. js is an open-source JavaScript library that is used for building user in
 
 3.Routing Implementation
 
-=>https://wvyz3b.csb.app/ (implemented in here)
+=>https://codesandbox.io/s/romantic-currying-wvyz3b
 
 4.How do you pass data from parent to child
 
 =>by using props.
 
-=>https://xf1kbf.csb.app/  (implementation part).
+=>https://codesandbox.io/s/xf1kbf?file=/src/App.js  (implementation part).
 
 5.What is lazy loading in react ?
 
@@ -43,5 +43,16 @@ If the behaviour of a component is dependent on the state of the component then 
 
 =>you can create distinct components that encapsulate behavior you need. Then, you can render only some of them, depending on the state of your application. Conditional rendering in React works the same way conditions work in JavaScript.
 
-
+In React, we can create multiple components which encapsulate behavior that we need.
+After that, we can render them depending on some conditions or the state of our 
+application. In other words, based on one or several conditions, a component decides 
+which elements it will return. In React, conditional rendering works the same way as 
+the conditions work in JavaScript. We use JavaScript operators to create elements 
+representing the current state, and then React Component update the UI to match them.
+There is more than one way to do conditional rendering in React.
+ They are given below.
+  1.if
+  2.ternary operator
+  3.logical && operator
+  4.switch case operator
 
